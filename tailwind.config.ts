@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				nautical: {
+					deep: 'hsl(var(--nautical-deep))',
+					medium: 'hsl(var(--nautical-medium))',
+					light: 'hsl(var(--nautical-light))',
+					gold: 'hsl(var(--nautical-gold))',
+					white: 'hsl(var(--nautical-white))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

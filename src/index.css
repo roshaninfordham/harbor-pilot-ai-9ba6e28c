@@ -8,35 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Maritime Color Palette */
+    --background: 210 50% 98%;
+    --foreground: 213 31% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 213 31% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 213 31% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 213 93% 20%; /* Deep Navy */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 199 89% 48%; /* Ocean Blue */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 93% 47%; /* Maritime Gold */
+    --accent-foreground: 213 31% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 199 89% 48%;
 
-    --radius: 0.5rem;
+    /* Custom Maritime Variables */
+    --nautical-deep: 213 93% 20%;
+    --nautical-medium: 213 60% 35%;
+    --nautical-light: 199 89% 48%;
+    --nautical-gold: 45 93% 47%;
+    --nautical-white: 210 40% 98%;
+    
+    /* Gradients */
+    --gradient-ocean: linear-gradient(135deg, hsl(var(--nautical-deep)), hsl(var(--nautical-light)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--nautical-gold)), hsl(var(--nautical-light)));
+    --gradient-hero: linear-gradient(180deg, hsl(var(--nautical-deep)) 0%, hsl(var(--nautical-medium)) 100%);
+    
+    /* Shadows */
+    --shadow-nautical: 0 10px 30px -10px hsl(var(--nautical-deep) / 0.3);
+    --shadow-float: 0 20px 40px -20px hsl(var(--nautical-light) / 0.4);
+    
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
